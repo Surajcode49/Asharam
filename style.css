@@ -239,7 +239,7 @@ video {
 
 .container {
   width: 100%;
-  margin-top:49rem;
+  margin-top: 45rem;
   margin-right: auto;
   margin-left: auto;
 
@@ -1166,7 +1166,7 @@ a s {
 
 .nextt {
   display: flex;
- 
+
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
