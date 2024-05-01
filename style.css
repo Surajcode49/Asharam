@@ -236,10 +236,15 @@ video {
   display: none;
 }
 
+/* Button */
+
+
+
+
 
 .container {
   width: 100%;
-  margin-top: 44rem;
+  margin-top: 45rem;
   margin-right: auto;
   margin-left: auto;
 
@@ -1284,16 +1289,17 @@ a.button2 {
 
 
 /* 5 */
-.btn-5 {
+.btn-6 {
   margin-top: 2rem;
   width: 130px;
-  height: 40px;
-  line-height: 42px;
+  height: 30px;
+   margin-top: -35px;
   padding: 0;
   border: none;
   color: #bf1e2d;
-  background: #bf1e2d;
-  background: linear-gradient(0deg, #bf1e2d 0%, #bf1e2d 100%);
+  background: rgb(247,150,192);
+background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+  
 
   /* Center the button horizontally */
   margin-left: auto;
@@ -1301,14 +1307,14 @@ a.button2 {
   display: block;
 }
 
-.btn-5:hover {
+.btn-6:hover {
   color: #bf1e2d;
   background: transparent;
   box-shadow: none;
 }
 
-.btn-5:before,
-.btn-5:after {
+.btn-6:before,
+.btn-6:after {
   content: '';
   position: absolute;
   top: 0;
@@ -1323,15 +1329,15 @@ a.button2 {
   transition: 400ms ease all;
 }
 
-.btn-5:after {
+.btn-6:after {
   right: inherit;
   top: inherit;
   left: 0;
   bottom: 0;
 }
 
-.btn-5:hover:before,
-.btn-5:hover:after {
+.btn-6:hover:before,
+.btn-6:hover:after {
   width: 100%;
   transition: 800ms ease all;
 }
