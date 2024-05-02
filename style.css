@@ -1293,13 +1293,13 @@ a.button2 {
   margin-top: 2rem;
   width: 130px;
   height: 30px;
-   margin-top: -35px;
+  margin-top: -35px;
   padding: 0;
   border: none;
   color: #bf1e2d;
-  background: rgb(247,150,192);
-background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
-  
+  background: rgb(139, 69, 19);
+  background: radial-gradient(circle, rgb(200, 200, 135) 0%, rgb(249, 232, 224) 100%);
+
 
   /* Center the button horizontally */
   margin-left: auto;
